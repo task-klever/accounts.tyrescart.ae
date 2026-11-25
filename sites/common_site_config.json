@@ -1,0 +1,19 @@
+{
+ "background_workers": 1,
+ "file_watcher_port": 6787,
+ "frappe_user": "tyrescartaccounts",
+ "gunicorn_workers": 5,
+ "live_reload": true,
+ "rebase_on_pull": false,
+ "redis_cache": "redis://127.0.0.1:13100",
+ "redis_queue": "redis://127.0.0.1:11100",
+ "redis_socketio": "redis://127.0.0.1:13100",
+ "restart_supervisor_on_update": true,
+ "restart_systemd_on_update": false,
+ "serve_default_site": true,
+ "shallow_clone": true,
+ "socketio_port": 9000,
+ "supervisor_restart_cmd": "/bin/true",
+ "use_redis_auth": false,
+ "webserver_port": 8090
+}

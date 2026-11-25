@@ -1,0 +1,38 @@
+# ---- Build / environment ----
+env/
+node_modules/
+sites/assets/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ---- SECRETS ----
+sites/*/site_config.json
+config/*.acl
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# ---- LIVE DATA (DB backups, customer uploads, dumps) ----
+sites/*/private/
+sites/*/public/files/
+*.sql
+*.sql.gz
+*.tar
+*.tar.gz
+*.tgz
+
+# ---- Runtime files ----
+logs/
+sites/*/logs/
+sites/*/locks/
+sites/*/indexes/
+sites/*/*.temp.db
+config/pids/
+config/nginx/temp/
+config/scheduler_process
+*.pid
+*.sock
+*.lock
